@@ -1,0 +1,95 @@
+/* FONT */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+  body{
+    font-family: 'Work Sans', sans-serif;
+    margin:0;
+  }
+  p{
+    color: #727272;
+  }
+.header-container{
+    background: rgba(255, 144, 14, 0.1);
+    padding:50px 230px;
+  }
+/* style of navigation bar */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav-item{
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-item ul{
+    list-style: none;
+    
+    display: flex;
+    gap:30px;
+    
+}
+.nav-item a{
+    text-decoration: none;
+}
+/* banner style */
+.banner-container{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: 529px;
+    margin-right: 529px;
+}
+.banner-writing{
+    text-align: center;
+    
+}
+.banner-writing h3{
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-writing p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    border:none;
+}
+.banner-image img{
+    width:100%;
+    text-align: center;
+    border-radius: 8px;
+}
+/* section-01 feature design */
+.feature{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 73px;
+    justify-content:center;
+    align-items: center;
+    padding:85px 300px;
+
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    /* margin-left: 300px; */
+}
+.feature-image img{
+    width: 100%;
+}
+.feature-writing h4{
+    font-weight: 500;
+    font-size: 45px;
+}
