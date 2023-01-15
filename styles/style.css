@@ -143,8 +143,8 @@
     margin: 45px;
     border:none;
     position: relative;
-    bottom: 100px;;
-    left:-100px;
+    bottom:10em;
+    left:-10em;
 
 }
 .btn-secondary h5{
@@ -189,6 +189,9 @@
     font-weight: 600;
     font-size: 45px;
     margin:0px;
+}
+.icon:hover{
+    border: 15px dashed blue;
 }
 /* section 4 sponsor design */
 .sponsor-heading{
