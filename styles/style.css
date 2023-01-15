@@ -195,13 +195,15 @@
 }
 /* section 4 sponsor design */
 .sponsor-heading{
-    text-align:left;
+    text-align:center;
+    padding-left: 690px;
+    padding-right: 690px; 
 }
 .sponsor-heading h4{
     font-weight: 700;
     font-size: 45px;
-    padding-left: 690px;
-    padding-right: 690px;
+    /* padding-left: 690px;
+    padding-right: 690px; */
 
 }
 .sponsor-list{
