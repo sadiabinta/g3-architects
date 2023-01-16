@@ -44,8 +44,9 @@
 .banner-container{
     /* margin-left: auto;
     margin-right: auto; */
-    margin-left: 529px;
-    margin-right: 529px;
+    /* margin-left: 529px;
+    margin-right: 529px; */
+    width: 100%;
 }
 .banner-writing{
     text-align: center;
@@ -101,8 +102,6 @@
     grid-template-columns:50% 50%;
     padding: 130px 240px;
     column-gap: 54px;
-    /* justify-content: center;
-    align-items: center; */
 }
 .loved-features-heading{
     
@@ -132,6 +131,10 @@
     font-weight: 600;
     font-size: 20px;
 }
+.loved-feature p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 .btn{
     float:left;
 }
@@ -151,6 +154,7 @@
     font-weight: 700;
     font-size: 65px;
     margin: 0;
+    padding: 0;
 }
 .btn-secondary p{
     font-weight: 500;
@@ -194,16 +198,17 @@
     border: 15px dashed blue;
 }
 /* section 4 sponsor design */
+.sponsor{
+    display: grid;
+    grid-template-columns: 100%;
+
+}
 .sponsor-heading{
     text-align:center;
-    padding-left: 690px;
-    padding-right: 690px; 
 }
 .sponsor-heading h4{
     font-weight: 700;
     font-size: 45px;
-    /* padding-left: 690px;
-    padding-right: 690px; */
 
 }
 .sponsor-list{
@@ -216,12 +221,14 @@
     filter: grayscale(100%);
     /* mix-blend-mode: luminosity; */
 }
+/* form designed inline*/
 /* footer */
 .footer{
     background: #FFF4E7;
     font-weight: 400;
     font-size: 20px;
-    padding:30px 410px;
+    padding-top:10px;
+    padding-bottom: 10px;
     margin: 130px 240px;
     text-align: center;
 }
@@ -282,6 +289,10 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   } */
+  .sponsor-heading{
+    margin-left: auto;
+    margin-right: auto;
+}
   .sponsor-list{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
